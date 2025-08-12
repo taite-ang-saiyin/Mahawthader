@@ -8,6 +8,8 @@ import Chatbot from "./pages/Chatbot";
 import AIJudge from "./pages/AIJudge";
 import AboutUs from "./pages/AboutUs";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 const queryClient = new QueryClient();
 
@@ -22,7 +24,8 @@ const App = () => (
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/ai-judge" element={<AIJudge />} />
           <Route path="/about" element={<AboutUs />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

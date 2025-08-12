@@ -59,6 +59,30 @@ const Navbar = () => {
             >
               About Us
             </NavLink>
+            <NavLink
+              to="/signup"
+              className={({ isActive }) =>
+                `px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
+                  isActive
+                    ? "bg-secondary text-secondary-foreground"
+                    : "text-primary-foreground hover:bg-secondary/50 hover:text-secondary-foreground"
+                }`
+              }
+            >
+              Sign Up
+            </NavLink>
+            <NavLink
+              to="/login"
+              className={({ isActive }) =>
+                `px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
+                  isActive
+                    ? "bg-secondary text-secondary-foreground"
+                    : "text-primary-foreground hover:bg-secondary/50 hover:text-secondary-foreground"
+                }`
+              }
+            >
+              Login
+            </NavLink>
           </div>
         </div>
       </div>
