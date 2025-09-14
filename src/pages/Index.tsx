@@ -21,7 +21,7 @@ const Index = () => {
       title: "AI Judge Platform",
       description: "Present your case and receive an impartial AI-powered judgment based on legal precedents and evidence.",
       action: "Start Judging",
-      path: "/ai-judge",
+      path: "/new-case",
     },
   ];
 
@@ -195,7 +195,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Scale className="h-6 w-6" />
-            <span className="text-xl font-bold">AI-Judge</span>
+            <span className="text-xl font-bold">Mahawthada</span>
           </div>
           <p className="text-sm opacity-80">
             © 2024 AI-Judge. All rights reserved. Powered by artificial intelligence for accessible legal justice.

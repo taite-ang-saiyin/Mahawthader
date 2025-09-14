@@ -8,34 +8,34 @@ import Navbar from "@/components/Navbar";
 const AboutUs = () => {
   const teamMembers = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Lead AI Researcher",
-      bio: "PhD in Artificial Intelligence with 10+ years experience in legal tech",
+      name: "Hsu Sandy Hnin",
+      role: "AI Engineer",
+      bio: "Undergraduate student at University of Information Technology",
       image: "👩‍💼",
     },
     {
-      name: "Michael Rodriguez",
-      role: "Legal Advisor",
-      bio: "Former Supreme Court clerk with expertise in constitutional law",
+      name: "Kaung Khant Ko",
+      role: "AI Architect",
+      bio: "Undergraduate student at University of Information Technology",
       image: "👨‍⚖️",
     },
     {
-      name: "Emily Thompson",
+      name: "Phyu Sin Thant",
       role: "Software Engineer",
-      bio: "Full-stack developer specializing in secure legal applications",
+      bio: "Undergraduate student at University of Information Technology",
       image: "👩‍💻",
     },
     {
-      name: "David Park",
-      role: "UX Designer",
-      bio: "Designing intuitive interfaces for complex legal processes",
+      name: "Htet Aung Shine",
+      role: "AI engineer",
+      bio: "Undergraduate student at University of Information Technology",
       image: "👨‍🎨",
     },
   ];
 
   const timeline = [
-    { year: "2024", event: "AI-Judge Platform Launch", status: "current" },
-    { year: "2025", event: "Multi-language Support Expansion", status: "future" },
+    { year: "2024", event: "AI-Judge Platform Launch", status: "past" },
+    { year: "2025", event: "Multi-language Support Expansion", status: "current" },
     { year: "2026", event: "International Legal Framework Integration", status: "future" },
     { year: "2027", event: "Real-time Court Integration", status: "future" },
   ];
@@ -141,20 +141,20 @@ const AboutUs = () => {
                     <label className="block text-sm font-medium text-foreground mb-2">
                       Full Name
                     </label>
-                    <Input placeholder="Your full name" />
+                    <Input placeholder="Your full name" disabled />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
                       Email Address
                     </label>
-                    <Input type="email" placeholder="your.email@example.com" />
+                    <Input type="email" placeholder="your.email@example.com" disabled />
                   </div>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
                     Subject
                   </label>
-                  <Input placeholder="What would you like to discuss?" />
+                  <Input placeholder="What would you like to discuss?" disabled />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
@@ -163,9 +163,10 @@ const AboutUs = () => {
                   <Textarea
                     placeholder="Tell us more about your inquiry..."
                     className="h-32"
+                    disabled
                   />
                 </div>
-                <Button className="w-full">Send Message</Button>
+                <Button className="w-full" disabled>Send Message</Button>
                 
                 <div className="border-t border-border pt-6">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">

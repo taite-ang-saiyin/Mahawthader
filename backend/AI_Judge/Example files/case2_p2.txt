@@ -1,0 +1,7 @@
+EVIDENCE SUBMITTED:
+
+Exhibit A: Server log report with timestamp and IP trace.
+
+Exhibit B: Copy of extracted dataset folder (digital forensic evidence).
+
+Exhibit C: University IT statement confirming the IP belongs to the defendant.

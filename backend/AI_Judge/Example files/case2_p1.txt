@@ -1,0 +1,18 @@
+DATE OF INCIDENT: March 2, 2025
+SYSTEM: Myanmar Telecom Customer Database
+
+DETAILS OF CLAIM (Plaintiff’s Viewpoint):
+
+On March 2, 2025, an unauthorized login attempt was traced to the defendant’s university IP address.
+
+Internal audit logs confirm multiple SQL queries extracting subscriber records.
+
+Approximately 5,000 customer records were copied, including names, addresses, and phone numbers.
+
+The defendant did not have authorization to access the database.
+
+This act violates the Electronic Transactions Law, Section 34, and constitutes a cybercrime under Myanmar Cybersecurity regulations.
+
+The unauthorized access compromises national telecom security and customer trust.
+
+The plaintiff requests legal accountability, digital forensics verification, and remedies for security breach.

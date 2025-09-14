@@ -53,8 +53,9 @@ const Signup = () => {
     }
 
     try {
+      const API_BASE = (import.meta as any).env?.VITE_API_URL || "http://localhost:8000";
       const response = await axios.post(
-        "http://localhost:5001/signup",
+        `${API_BASE}/signup`,
         { name, email, password },
         {
           timeout: 15000,
