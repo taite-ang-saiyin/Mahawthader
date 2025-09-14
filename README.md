@@ -17,7 +17,7 @@ Mahawthada is an AI-powered legal assistant platform designed to analyze legal c
 
 ## Screenshots
 
-![Home Page](./public/screenshots/homepage.png)
+![Home Page](./public/screenshots/hompage.png)
 ![Chatbot Page](./public/screenshots/chatbot.png)
 ![AI Judge Page](./public/screenshots/aijudge.png)
 
