@@ -1,0 +1,17 @@
+TEXT DESCRIPTION OF DOCUMENTS:
+
+Log File 1: Entry at 03/02/2025 11:42PM showing user ID “unauthorized_admin” login from IP 192.168.45.88.
+
+Log File 2: SQL query log — “SELECT * FROM Customer_Data;”.
+
+Screenshot: Defendant’s laptop confiscated with database files found.
+
+RELIEF SOUGHT:
+
+Legal accountability under Myanmar Cybercrime Law.
+
+Verification of data breach and prevention measures.
+
+Compensation or remedies for security breach.
+
+Signed: Myanmar Telecom Legal Officer
